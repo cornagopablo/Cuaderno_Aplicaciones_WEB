@@ -1,0 +1,25 @@
+body {
+    margin-left: 200px;
+}
+
+h1 {
+    margin-right: 300px;
+    padding: 5px;
+    border: 5px solid red;
+}
+
+h3 {
+    margin-right: 300px;
+    text-align: right;
+}
+
+p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 10px solid blue;
+}
+
+li {
+    border: 0.5px solid white;
+    padding: 5px;
+}

@@ -1,0 +1,78 @@
+<!--Actividad Propuesta 2_5 Hecha por Pablo Cornago Gómez-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Propuesta 2.5</title>
+    </head>
+    <body>
+        <h1 align="center">DATOS DE ALUMNOS-CONTINUACIÓN</h1>
+        <table align="center" border="2" cellpadding="15" bgcolor="#FFF0F5">
+            <tr>
+                <td>
+                    <h3 align="center"><font color="red">Teclea más datos</font></h3>
+                    <P>
+                        Teclea fecha de nacimiento:
+                    </P>
+                    <form action="">
+                        <font color="blue">
+                            <p>
+                                Teclea día de nacimiento..: <input type="text" size="2" maxlength="2">
+                                Selecciona mes de nacimiento..: 
+                                    <select name="mes">
+                                        <option value="enero">Enero</option>
+                                        <option value="febrero">Febrero</option>
+                                        <option value="marzo">Marzo</option>
+                                        <option value="abril">Abril</option>
+                                        <option value="mayo">Mayo</option>
+                                        <option value="junio">Junio</option>
+                                        <option value="julio">Julio</option>
+                                        <option value="agosto">Agosto</option>
+                                        <option value="septiembre">Septiembre</option>
+                                        <option value="octubre">Octubre</option>
+                                        <option value="noviembre">Noviembre</option>
+                                        <option value="diciembre">Diciembre</option>
+                                    </select>
+                                Teclea año de nacimiento..: <input type="text" size="4" maxlength="4">
+                            </p>
+                            <p>
+                                Selecciona el curso..:
+                                    <select name="cursos">
+                                        <option value="SMR1">Primero SMR</option>
+                                        <option value="SMR2">Segundo SMR</option>
+                                        <option value="DAW1">Primero DAW</option>
+                                        <option value="DAW2">Segundo DAW</option>
+                                        <option value="DAM">DAM</option>
+                                    </select>
+                            </p>
+                            <hr>
+                            <p>
+                                Selecciona 3 materias optativas:
+                                <input type="checkbox" name="ing" value="ing">Inglés
+                                <input type="checkbox" name="fr" value="fr">Francés
+                                <input type="checkbox" name="dep" value="dep">Deporte
+                                <input type="checkbox" name="astr" value="astr">Astronomía
+                                <input type="checkbox" name="hist" value="hist">Historia
+                                <input type="checkbox" name="web" value="web">Páginas web
+                                <input type="checkbox" name="red" value="red">Redes
+                            </p>
+                            <hr>
+                            <p>
+                                Selecciona el turno:
+                                <input type="radio" name="turno" value="diu">Diurno
+                                <input type="radio" name="turno" value="noct">Nocturno
+                                <input type="radio" name="turno" value="vesp">Vespertino
+                            </p>
+                        </font>
+                    <hr>
+                        <p align="center">
+                            <input type="submit" value="Enviar Datos">
+                            <input type="reset" value="Limpiar Datos">
+                            <input type="button" value="Cerrar Ventana" onclick="window.close();">
+                            <input type="button" value="Anterior Formulario" onclick="window.location.replace('actividad propuesta 2_5 1.html');">
+                        </p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

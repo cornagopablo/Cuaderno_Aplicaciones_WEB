@@ -1,0 +1,51 @@
+body {
+    padding-left: 12em;
+    font-family: Arial;
+    color: purple;
+    background-color: #d8da3d;
+}
+
+h1 {
+    font-family: 'Comic Sans MS';
+}
+
+ul {
+    padding: 5px;
+    margin: 0;
+    width: 160px;
+    list-style: none;
+    background: #F5A9F2;
+    position: fixed;
+    left: 20px;
+    top: 100px;
+    border: solid brown;;
+}
+    ul li {
+        border-top: 2px solid #FFFFFF;
+    }
+        ul li a {
+            padding: .2em 0 .2em 1.5em;
+            display: block;
+            text-decoration: none;
+            color: #F4F4F4;
+        }
+    ul li a:hover, ul li a:active {
+        background: #F3F781;
+    }
+    ul li a:visited {
+        color: black;
+    }
+
+img {
+    float: right;
+    margin-right: 50px;
+}
+
+p {
+    padding: 10px;
+    margin-right: 30em;
+    color: black;
+    background-color: plum;
+    border: solid brown;
+    border-width: 5px;
+}
